@@ -1,0 +1,8 @@
+name: Test1
+on: workflow_dispatch
+jobs:
+  build-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: building_jobs
+        run: echo "hello world!"
