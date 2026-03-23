@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: step-1
-        run: echo "print variable text ${{var.my_name}}"
+        run: echo "print variable text ${{vars.my_name}}"
